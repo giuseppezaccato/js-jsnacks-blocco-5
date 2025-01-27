@@ -7,3 +7,7 @@ const posts = [
 
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
+
+//task stessa logica snack3
+const authors = posts.map((element) => element.author);
+console.log(authors);

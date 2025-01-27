@@ -4,14 +4,14 @@ const numbers = [2, 8, 4, 7, 2, 87];
 // Risultato: [3, 9, 5, 8, 3, 88]
 
 //task map ==>> crea in automatico un ciclo forEach con istruzioni nuovoArray.push(element +1)
-const pari = numbers.map((element) => element + 1);
-console.log(pari);
+const increm = numbers.map((element) => element + 1);
+console.log(increm);
 
 //task senza map avrei dovuto fare un for con dentro un push manualmente!
-const pariA = [];
+const increm1 = [];
 for (let i = 0; i < numbers.length; i++) {
-    pariA.push(numbers[i] + 1)
+    increm1.push(numbers[i] + 1)
 };
-console.log(pariA);
+console.log(increm1);
 
 
