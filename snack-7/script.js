@@ -29,3 +29,7 @@ let studentId2;
 students.find((element) => element.id === 2 ? (studentId2 = element) : null);
 console.log(studentId2);
 
+//fix facendo un mix tra snack 5 e 8! potrei evitare anche di dichiare la funzione vuota
+const studId2 = students.find((element) => element.id === 2); //unico return true possibile che fa da break!
+console.log(studId2);
+
