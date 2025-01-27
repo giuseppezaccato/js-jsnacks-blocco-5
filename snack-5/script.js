@@ -13,9 +13,9 @@ const pari = nums.filter((element) => {
 });
 console.log(pari);
 
-//task .filter EASIER ==>> inserendo la condizione nell'IF il .filter di per sè 
-//task restituirà solo gli elementi che la verificano(senza per forza dover dare un RETURN) 
-//task e usando TERNARY OPERATOR posso eliminare anche la {} riducendo sensibilmente il codice!
-const pariB = nums.filter((element) => element % 2 === 0);
+//fix .filter EASIER ==>> inserendo la condizione nell'IF il .filter di per sè 
+//fix restituirà solo gli elementi che la verificano(senza per forza dover dare un RETURN) 
+//fix e usando TERNARY OPERATOR posso eliminare anche la {} riducendo sensibilmente il codice!
+const pariB = nums.filter((element) => element % 2 === 0); //--- senza return nè ? () ---
 console.log(pariB);
 

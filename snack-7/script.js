@@ -21,3 +21,11 @@ const students = [
 
 // Recupera i dati dello studente con id 2
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
+//task dichiaro variabile vuota
+let studentId2;
+
+//task uso .find per cercare in base a element.id chi ha la corrispondenza,
+//task per sovrascrivere element nella variabile studentId2
+students.find((element) => element.id === 2 ? (studentId2 = element) : null);
+console.log(studentId2);
+
