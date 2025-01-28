@@ -20,9 +20,12 @@ const students = [
 ];
 
 //task parto con la variabile vuota
-let classeMarcoLanci = null
-
+let classeMarcoLanci = null;
 //task cerco la variabile con .find + ternary
 //task sostituendo la variabile con element.class una volta trovata
 students.find((element) => element.name === 'Marco Lanci' ? (classeMarcoLanci = element.class) : null);
 console.log(classeMarcoLanci);
+
+//fix versione piu pulita!
+let classeMarcoLanciA = students.find((element) => element.name === 'Marco Lanci');
+console.log(classeMarcoLanciA.class);
